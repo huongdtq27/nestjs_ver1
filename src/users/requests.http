@@ -1,0 +1,26 @@
+### Create a new user
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+  "email": "huong4@eco.com",
+  "password": "milopass123"
+}
+
+
+### Get User
+GET http://localhost:3000/auth/16
+
+### Get Alls
+GET http://localhost:3000/auth
+
+### Delete user by id
+DELETE  http://localhost:3000/auth/1
+
+### Update user
+PUT http://localhost:3000/auth/16
+content-type: application/json
+
+{
+  "email":"milo1@eco.com"
+}
